@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header{
+    margin-bottom: -415px;
+}
+.fondo_header img{
+    position: relative;
+    display: flex;
+    width: 100%;
+    top: -7em;
+    z-index: -1;
+    height: 25em;
+}
+/*logo en el header*/
+.logo img{
+    position: relative;
+    display: flex;
+    top: -23em;
+    width: 20%;
+    left: 18%;
+}
+/*titulo en el header*/
+@font-face{
+    font-family:titulo;
+    src: url(Hello\ August.ttf);
+}
+.titulo{
+    position: absolute;
+    display: flex;
+    left: 11em;
+    top: 1.5em;
+    font-size: 55px;
+    font-family:titulo;
+}
+.fondo_body img{
+    position: relative;
+    display: flex;
+    top: 4.9em;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+.prim_tex{
+    position: absolute;
+    top: 18.5em;
+    width: 95%;
+    left: 2.5%;
+}
+.titulo_pr{
+    font-size: 30px;
+}
+footer{
+    background-color: #7f3e21;
+    bottom: 1px;
+    width: 100%;
+    height: 8em;
+}
